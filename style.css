@@ -1,0 +1,164 @@
+
+*{
+    color: aliceblue;
+    text-align: center;
+
+}
+body{
+    background-color: rgb(10, 14, 15);
+    font-family: 'Poppins', sans-serif;
+    background-image: url(bg-curvy-desktop.svg);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header a{
+    color: #ccc;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.features{
+    padding: 100px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-bottom: 20px;
+}
+
+.stay-productive{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.stay-productive img{
+    width: 400px;
+    height: 400px;
+    margin-right: 40px;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    row-gap: 1cm;
+    position: relative;
+}
+    
+.testimonial-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+    box-sizing: border-box;
+    background-color:rgba(31, 35, 71, 0.938);
+     border-radius: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.testimonial img{
+   position: absolute;
+    width: 50px;
+    z-index: -1;
+    top: 4rem;
+    left: 2rem;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    margin-left: 25%;
+    width: 50%;
+    background-color:rgba(0, 0, 0, 0.205);
+}
+#email{
+    padding: 10px;
+    border-radius: 20px;
+}
+#submit{
+    background-color: aqua;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+
+}
+
+.container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: row;
+text-decoration: none;
+}
+
+
+.hero{
+    align-items: center;   
+    width: 15cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    padding: 40px;
+}
+.btn{
+    background-color:rgb(17, 161, 209);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#image1{
+    width: 500px;
+}
+
+.feature{
+    background-color: rgb(16, 40, 49);
+    color: white;
+    border-style: none;
+    border-width: o.5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact{
+    width: auto;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    text-decoration: none;
+}
+
+.footer-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
